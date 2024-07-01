@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="assets/books/Style/style-books.css">
+</head>
+<body>
+    <img src="assets/icons/logo.jpg" alt="Logo" class="logo">
+    <div class="container">
+        <div class="grid">
+            <div class="card" data-book="Book 1">
+                <div class="front">
+                    <img src="assets/books/book1_image.jpg" alt="Book 1">
+                    <h3><span class = "bookname">Emma</span><br><span class = "author">Jane Austen</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 2">
+                <div class="front">
+                    <img src="assets/books/book2_image.jpg" alt="Book 2">
+                    <h3><span class = "bookname">The Seven Husbands of Evelyn Hugo</span><br><span class = "author">Taylor Jankins Reid</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 3">
+                <div class="front">
+                    <img src="assets/books/book3_image.jpg" alt="Book 3">
+                    <h3><span class = "bookname">The Goldfinch</span><br><span class = "author">Donna Tartt</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 4">
+                <div class="front">
+                    <img src="assets/books/book4_image.jpg" alt="Book 4">
+                    <h3><span class = "bookname">A Little Life</span><br><span class = "author">Hanya Yanagihara</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 5">
+                <div class="front">
+                    <img src="assets/books/book5_image.jpg" alt="Book 5">
+                    <h3><span class = "bookname">The God of Small Things</span><br><span class = "author">Arundhati Roy</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 6">
+                <div class="front">
+                    <img src="assets/books/book6_image.jpg" alt="Book 6">
+                    <h3><span class = "bookname">Great Expectations</span><br><span class = "author">Charles Dickens</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 7">
+                <div class="front">
+                    <img src="assets/books/book7_image.jpg" alt="Book 7">
+                    <h3><span class = "bookname">Frankenstein</span><br><span class = "author">Mary Shelley</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 8">
+                <div class="front">
+                    <img src="assets/books/book8_image.jpg" alt="Book 8">
+                    <h3><span class = "bookname">The Hunger Games</span><br><span class = "author">Suzanne Collins</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 9">
+                <div class="front">
+                    <img src="assets/books/book9_image.jpg" alt="Book 9">
+                    <h3><span class = "bookname">The Importance of Being Earnest</span><br><span class = "author">Oscar Wilde</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-book="Book 10">
+                <div class="front">
+                    <img src="assets/books/book10_image.jpg" alt="Book 10">
+                    <h3><span class = "bookname">Wuthering Heights</span><br><span class = "author">Emily Bronte</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <!-- Add more cards for the remaining books (Book 3 to Book 10) in a similar fashion -->
+        </div>
+        <div class="random-book">
+            <div class="random-book-card">
+                <div class="front" id="randomBook">
+                    <!-- Random book details will be inserted here -->
+                </div>
+            </div>
+            <button onclick="regenerateBook()"><img src="assets/icons/refresh.png" alt="Regenerate Target"></button>
+        </div>
+    </div>
+    <script src="assets/books/Style/book-script.js"></script>
+</body>
+</html>

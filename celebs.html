@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrities</title>
+    <link rel="stylesheet" href="assets/celebs/Style/style-celebs.css">
+</head>
+<body>
+    <img src="assets/icons/logo.jpg" alt="Logo" class="logo">
+    <div class="container">
+        <div class="grid">
+            <div class="card" data-celeb="Celeb 1">
+                <div class="front">
+                    <img src="assets/celebs/celeb1_image.jpg" alt="Celeb 1">
+                    <h3>Kendrick Lamar</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 2">
+                <div class="front">
+                    <img src="assets/celebs/celeb2_image.jpg" alt="Celeb 2">
+                    <h3>Kanye West</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 3">
+                <div class="front">
+                    <img src="assets/celebs/celeb3_image.jpg" alt="Celeb 3">
+                    <h3>Adele</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 4">
+                <div class="front">
+                    <img src="assets/celebs/celeb4_image.jpg" alt="Celeb 4">
+                    <h3>Doja Cat</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 5">
+                <div class="front">
+                    <img src="assets/celebs/celeb5_image.jpg" alt="Celeb 5">
+                    <h3>Joe Biden</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 6">
+                <div class="front">
+                    <img src="assets/celebs/celeb6_image.jpg" alt="Celeb 6">
+                    <h3>Malala Yousafzai</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 7">
+                <div class="front">
+                    <img src="assets/celebs/celeb7_image.jpg" alt="Celeb 7">
+                    <h3>Selena Gomez</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 8">
+                <div class="front">
+                    <img src="assets/celebs/celeb8_image.jpg" alt="Celeb 8">
+                    <h3>Rekha</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 9">
+                <div class="front">
+                    <img src="assets/celebs/celeb9_image.jpg" alt="Celeb 9">
+                    <h3>Amitabh Bachchan</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-celeb="Celeb 10">
+                <div class="front">
+                    <img src="assets/celebs/celeb10_image.jpg" alt="Celeb 10">
+                    <h3>Elon Musk</h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <!-- Add more cards for the remaining celebrities (Celeb 3 to Celeb 10) in a similar fashion -->
+        </div>
+        <div class="random-celeb">
+            <div class="random-celeb-card">
+                <div class="front" id="randomCeleb">
+                    <!-- Random celebrity details will be inserted here -->
+                </div>
+            </div>
+            <button onclick="regenerateCeleb()"><img src="assets/icons/refresh.png" alt="Regenerate Target"></button>
+        </div>
+    </div>
+    <script src="assets/celebs/Style/celeb-script.js"></script>
+</body>
+</html>

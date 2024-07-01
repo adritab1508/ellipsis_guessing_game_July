@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="assets/movies/Style/style-movies.css">
+</head>
+<body>
+    <img src="assets/icons/logo.jpg" alt="Logo" class="logo">
+    <div class="container">
+        <div class="grid">
+            <div class="card" data-movie="Movie 1">
+                <div class="front">
+                    <img src="assets/movies/movie1_image.png" alt="Movie 1">
+                    <h3><span class="moviename">Dead Poets Society</span><br><span class="director">Peter Weir</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 2">
+                <div class="front">
+                    <img src="assets/movies/movie2_image.png" alt="Movie 2">
+                    <h3><span class="moviename">Oppenheimer</span><br><span class="director">Christopher Nolan</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 3">
+                <div class="front">
+                    <img src="assets/movies/movie3_image.png" alt="Movie 3">
+                    <h3><span class="moviename">Little Women</span><br><span class="director">Greta Gerwig</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 4">
+                <div class="front">
+                    <img src="assets/movies/movie4_image.png" alt="Movie 4">
+                    <h3><span class="moviename">Brokeback Mountain</span><br><span class="director">Ang Lee</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 5">
+                <div class="front">
+                    <img src="assets/movies/movie5_image.png" alt="Movie 5">
+                    <h3><span class="moviename">RRR</span><br><span class="director">SS Rajamouli</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 6">
+                <div class="front">
+                    <img src="assets/movies/movie6_image.png" alt="Movie 6">
+                    <h3><span class="moviename">10 Things I Hate About You</span><br><span class="director">Gil Junger</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 7">
+                <div class="front">
+                    <img src="assets/movies/movie7_image.png" alt="Movie 7">
+                    <h3><span class="moviename">500 Days of Summer</span><br><span class="director">Marc Webb</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 8">
+                <div class="front">
+                    <img src="assets/movies/movie8_image.png" alt="Movie 8">
+                    <h3><span class="moviename">Jab We Met</span><br><span class="director">Imtiaz Ali</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 9">
+                <div class="front">
+                    <img src="assets/movies/movie9_image.png" alt="Movie 9">
+                    <h3><span class="moviename">The Conjuring</span><br><span class="director">James Wan</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="card" data-movie="Movie 10">
+                <div class="front">
+                    <img src="assets/movies/movie10_image.png" alt="Movie 10">
+                    <h3><span class="moviename">Kabhi Alvida Na Kehna</span><br><span class="director">Karan Johar</span></h3>
+                </div>
+                <div class="back"></div>
+            </div>
+            <!-- Add more cards for the remaining movies (Movie 3 to Movie 10) in a similar fashion -->
+        </div>
+        <div class="random-movie">
+            <div class="random-movie-card">
+                <div class="front" id="randomMovie">
+                    <!-- Random movie details will be inserted here -->
+                </div>
+            </div>
+            <button onclick="regenerateMovie()"><img src="assets/icons/refresh.png" alt="Regenerate Target"></button>
+        </div>
+    </div>
+    <script src="assets/movies/Style/movie-script.js"></script>
+</body>
+</html>
